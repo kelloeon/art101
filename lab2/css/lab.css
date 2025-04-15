@@ -5,6 +5,7 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 2px beige;
+    border-style: groove;
     background-color:rgb(65, 101, 135);
   }
 
