@@ -1,6 +1,6 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Elio Kim
+// Date: April 14, 2025
 
 // Constants
 
