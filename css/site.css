@@ -25,6 +25,11 @@ h2{
   font-size:large;
   font-family: 'Courier New', Courier, monospace;
 }
+
+h3{
+  color: rgb(255, 220, 114);
+  font-family: 'Courier New', Courier, monospace;
+}
 p{
   color: rgb(255, 232, 164);
   font-family: 'Courier New', Courier, monospace;
