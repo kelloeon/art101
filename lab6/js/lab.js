@@ -14,7 +14,7 @@ let myMainRide = {
   color: "silver",
   owned: false,
   currentYear: 2025,
-  age: function() {
+  howOld: function() {
       return this.currentYear - this.year;
   }
 };
