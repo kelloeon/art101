@@ -1,21 +1,27 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 8: Anon Functions and Callbacks
+// Author: Elio Kim
+// Date: 8 May 2025
 
-// Constants
-
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+function isEven(x) {
+  return (x % 2 == 0);
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+// to test the function:
 
-// let's get this party started
-main();
+document.writeln("Is 1 even? ", isEven(1), "</br>");
+document.writeln("Is 2 even? ", isEven(2), "</br>");
+
+
+numArray = [12, 2, 3, 35, 76, 100000];
+document.writeln("My array: ", numArray, "</br>");
+
+var result = numArray.map(isEven);
+// to test the result variable:
+document.writeln("The evenness of my array: ", result, "</br>");
+
+var resultTwo = numArray.map(function(x) {
+  var results = x**3;
+  return results;
+})
+
+document.writeln("Each item in my array, cubed: ", resultTwo);
