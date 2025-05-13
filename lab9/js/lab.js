@@ -1,21 +1,27 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 9: Libraries and JQuery
+// Requirements: jQuery must be loaded for this script to work.
+// Author: Elio Kim
+// Date: 12 May 2025
 
-// Constants
+// add button to challenge section
+$("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
-// Functions
+// add a click listener to the challenge button
+$("#button-challenge").click(function(){
+  // now add (or subtract) the "special" class to the section
+  $("#challenge").toggleClass("special");
+});
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+$("#problems").append("<button id='button-problems'>Make Special</button>");
+// add a click listener to the problems button
+$("#button-problems").click(function(){
+  // now add (or subtract) the "special" class to the section
+  $("#problems").toggleClass("special");
+});
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+$("#reflection").append("<button id='button-reflection'>Make Special</button>");
+// add a click listener to the reflection button
+$("#button-reflection").click(function(){
+  // now add (or subtract) the "special" class to the section
+  $("#reflection").toggleClass("special");
+});
