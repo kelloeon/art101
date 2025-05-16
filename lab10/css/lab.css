@@ -1,9 +1,44 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+h1 {
+  color: rgb(225, 181, 50);
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 200%;
+  text-align: center;
+}
+
+h2{
+  color: rgb(240, 199, 77);
+  font-size:large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+  color: rgb(255, 220, 114);
+  font-family: 'Courier New', Courier, monospace;
+}
+p{
+  color: rgb(255, 232, 164);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+}
+
+/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px beige;
+  background-color: rgb(65, 101, 135);
+  border-radius: 10px;
+}
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px beige;
+  background-color: rgb(93, 129, 163);
+  border-radius: 10px;
+}
