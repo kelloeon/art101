@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 12 - Conditionals</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>	
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab12.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 12 - Conditionals</h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>The goal of this lab is to create a "sorting" function for users to interact with using conditionals in JavaScript.</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>My JavaScript code kept giving me an error, and it took me so long to figure out what it was. I had put a semicolon where I wasn't
+						supposed to, and I had no idea that it would break my entire code. I also ran into an issue where nothing was showing up for the 
+						output; that ended up being because i had put "let result =" for each if/else if statement instead of just saying "result =".
+					</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p>I kind of got frustrated when it wasn't immediately obvious to me what the errors were being caused by, but being patient and 
+						seeing the issues all the way through was really satisfying. The payoff was totally worth it :)</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+					<div id="output">
+						<p><script type= "text/javascript" src="js/lab12.js"></script></p>
+						<p>Ever wonder which Warrior Cats clan you'd be a part of? Enter your full name to find out:</p>
+						<input type = "text" id = "input" placeholder = "Start typing here...">
+						<button id = "button">Submit!</button>
+				
+					</div>
+			</div>
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+		</nav>
+	</main>
+</body>
+</html>
