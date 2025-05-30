@@ -1,10 +1,39 @@
 /* this css file will only style the homepage of our site */
 
-.my-face {
+/* #my-face {
   margin: 10px;
   max-width: 500px;
   border-radius: 10px;
-  display: block;
+  display: inline-block;
   object-fit: contain;
-  
+  /* float: right; */
+ 
+
+#links {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* .text {
+  display: inline-block; 
+  vertical-align: top;
+  /* float: left; */
+
+
+.container {
+ display: inline-block;
+ align-items: center; 
+ /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+ column-gap: 5px;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+  border-radius: 10px;
+}
+
+.text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  display: inline-flex;
 }
