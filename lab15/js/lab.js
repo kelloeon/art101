@@ -1,6 +1,6 @@
 // index.js - Lab 15: AJAX
 // Author: Elio Kim
-// Date: 6/2/2025
+// Date: 2 June 2025
 // Requirements: needs JQuery to function
 
 let endpoint = "https://pokeapi.co/api/v2/berry/"
