@@ -5,7 +5,7 @@
 
 // comic object
 const comicObj = {
-    url: "https://cors-anywhere.herokuapp.com/https://xkcd.com/info.0.json",
+    url: "https://xkcd.com/info.0.json",
     // api_key: "DEMO_KEY"
     type: "GET",
     dataType: "json",
